@@ -1,0 +1,18 @@
+<table class="table">
+  <thead class="thead-dark">
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Age</th>
+    <th>Company Id</th>
+  </thead>
+  <tr *ngFor="let user of users">
+    <td>{{user.id}}</td>
+    <td>{{user.firstName}}</td>
+    <td>{{user.lastName}}</td>
+    <td>{{user.email}}</td>
+    <td>{{user.age}}</td>
+    <td>{{user.companyId}}</td>
+  </tr>
+</table>
